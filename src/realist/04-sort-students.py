@@ -1,9 +1,12 @@
 def sort_by_mark(my_class):
-    return sorted(my_class, key=lambda x: x[0], reverse=True)
+    return sorted(my_class, reverse=True)
+print(sort_by_mark([[6, 'Alan'], [37, 'Shannon']]))
 
 
 def sort_by_name(my_class):
-    return sorted(my_class, key=lambda x: x[1])
+        return sorted(my_class, key=lambda myclass: myclass[1]
+        )
+print(sort_by_name([[6, 'Alan'], [37, 'Shannon']]))
 
 
 # Uncomment the following lines as needed
