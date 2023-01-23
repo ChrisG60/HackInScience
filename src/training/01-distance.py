@@ -1,2 +1,4 @@
 def dist(points):
-    return max(points) - min(points)
+    nb_max = max(points)
+    nb_min = min(points)
+    return nb_max - nb_min
